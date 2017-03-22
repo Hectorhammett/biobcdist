@@ -65,7 +65,7 @@
                         <h3>
                             <strong>Impresión y digitalización</strong> de manifiestos de manera sencilla e intuitiva.
                             Fácil creación de manifiestos y fácil remanifestado, sin perder tus folios desde cualquier lugar y dispositivo.
-                            Sencillo de operar, edita y optimiza tus folios.
+                            Sencillo de operar, editar y optimizar tus folios.
                         </h3>
                     </div>
                     <div class="col-sm-5 col-xs-8 col-xs-offset-2 col-sm-offset-0">
