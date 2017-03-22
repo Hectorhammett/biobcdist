@@ -1,8 +1,21 @@
 <?php
+    ini_set('display_errors',0);
+    register_shutdown_function( "fatal_handler" );
+
+    function fatal_handler() {
+        $error = error_get_last();
+        if($error['type'] === E_ERROR){
+            http_response_code(500);
+            echo "No pudimos procesar tu solicitud en este momento. Comunícate con nosotros enviando un correo a contacto@grupobiobc.com.";
+            return;   
+        }
+    }
+
     require 'vendor/autoload.php';
     use Mailgun\Mailgun;
     $dotenv = new Dotenv\Dotenv(__DIR__);
     $dotenv->load();
+
     session_start();
     $request_body = file_get_contents('php://input');
     $json = json_decode($request_body);
@@ -23,7 +36,7 @@
                     Tipo de paquete: $json->paquete \n 
                     Comentarios: $json->comentarios
                 ";
-                $mgClient = new Mailgun(getenv("MAILGUN_KEY"));
+                $mgClient = new Mailgun(getenv('MAILGUN_KEY'));
                 $domain = "mg.grupobiobc.com";
 
                 # Make the call to the client.

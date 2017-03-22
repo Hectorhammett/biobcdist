@@ -14,8 +14,9 @@
     <head>
         <meta charset='utf-8'>
         <title>Grupo Bio</title>
-        <meta name='description' content='The HTML5 Herald'>
-        <meta name='author' content='SitePoint'>
+        <meta name='description' content='GrupoBioBC, manifiestos y control de datos'>
+        <meta name='author' content='GrupoBioBC'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rufina" rel="stylesheet">
         <script src='index.bundle.js'></script>
         <!--[if lt IE 9]>
@@ -59,11 +60,12 @@
                 <div class="row">
                     <div class="col-sm-7">
                         <h1>
-                            El Software de manejo de manifiestos ha llegado.
+                            El Software para el manejo amigable de manifiestos ha llegado.
                         </h1>
                         <h3>
-                            Maneja tus clientes, crea reportes anuales y digitaliza tus documentos en un solo lugar. El software que te permite
-                            administrar todos tus documentos en línea, y consulta en cualquier lugar.
+                            <strong>Impresión y digitalización</strong> de manifiestos de manera sencilla e intuitiva.
+                            Fácil creación de manifiestos y fácil remanifestado, sin perder tus folios desde cualquier lugar y dispositivo.
+                            Sencillo de operar, edita y optimiza tus folios.
                         </h3>
                     </div>
                     <div class="col-sm-5 col-xs-8 col-xs-offset-2 col-sm-offset-0">
@@ -220,7 +222,7 @@
                     <div class="col-sm-6">
                         <h3>Sin Compromiso</h3>
                         <p>
-                            Al enviarnos un correo, nos pondremos en contacto para confirmar tu información. Si estás interesado, solo utiliza la forma de contacto. Una vez enviado el correo, nosotros nos pondremos en contacto para confirmar el acceso al sistema
+                            Al enviarnos un correo, nos pondremos en contacto. Si estás interesado, sólo llena la forma para contactarnos de manera rápida y sencilla. Una vez enviado el correo, nosotros nos comunicaremos para confirmar el acceso al sistema.
                         </p>
                         <h3>¿Qué necesito?</h3>
                         <p>
@@ -239,7 +241,7 @@
                              <i class="fa fa-key" aria-hidden="true"></i> Contraseña
                         </p>
                         <p>
-                            Toda esta información será requerida una vez que nos pongamos en contacto.
+                            Esta información es necesaria para brindarte el acceso en línea y contacto
                         </p>
                     </div>
                 </div>
@@ -251,6 +253,8 @@
                 <div class="col-sm-12 text-center">
                     <h4>
                         Grupo Bio-Bc
+                        <br/>
+                        contacto@grupobiobc.com
                         <br/>
                         Todos los derechos reservados &copy;.
                     </h4>
