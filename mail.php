@@ -21,8 +21,8 @@
     $json = json_decode($request_body);
     foreach($json as $value){
         if($value === ""){
-            echo "No llenó toda la información necesaria";
             http_response_code(404);
+            echo "No llenó toda la información necesaria";
             return;
         }
     }
@@ -49,14 +49,14 @@
                 echo "Se ha enviado su mensaje. Nos pondremos en contacto lo más pronto posible.";
                 return;
         } else {
-            echo "Hubo un error enviando el mensaje. Favor de intentarlo de nuevo o recargar la página.";
             http_response_code(404);
+            echo "Hubo un error enviando el mensaje. Favor de intentarlo de nuevo o recargar la página.";
             return;
         }
     }
     else{
-        echo "Hubo un error enviando el mensaje. Favor de intentarlo de nuevo o recargar la página.";
         http_response_code(404);
+        echo "Hubo un error enviando el mensaje. Favor de intentarlo de nuevo o recargar la página.";
         return;
     }
 ?>
