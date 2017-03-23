@@ -24,11 +24,11 @@
         <![endif]-->
     </head>
     <body ng-controller="MainCtrl" scroll>
-        <nav class="navbar navbar-default navbar-fixed-top" ng-class="{ 'navbar-large':!shrink }">
+        <nav class="navbar navbar-default navbar-fixed-top" ng-class="{ 'navbar-large':!expanded && !shrink}">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" id="toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" ng-click="expanded = !expanded">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
